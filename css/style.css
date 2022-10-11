@@ -7,10 +7,14 @@ body {
 
 #sidebar, #info{
     background: #0a0908;
-    border-radius: 2%;
+    border-radius: 3%;
 }
 
 #sidebar>img {
     border-radius: 5%
 }
 
+#contact {
+    text-align: left;
+    margin: 0.5rem;
+}
