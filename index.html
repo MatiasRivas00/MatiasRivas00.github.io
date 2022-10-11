@@ -6,65 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <aside>
-        <img src="img/profile.jpg" alt="My profile photo" width="200">
-        <h1>Matías Rivas</h2>
-        <hr>
-        <h4>Estudiante de Ingeniería Civil en Computación</h3>
-        <hr>
-
-        <p>Teléfono: +56 991398264</p>
-        <p>Email: matias.rivas.aa@gmail.com</p>
-        <p>Dirección: Maipú, Región Metropolitana</p>
-        <p>Nacimiento: 19 de Octubre de 2000</p>
-    </aside>
-
-    <section>
-        <article>
-            <h1>Sobre mi</h1>
-            <p>
-                Estudiante de cuarto año de Ingeniería Civil en Ciencias de la Computación en la Universidad de Chile. Soy una 
-                una persona muy curiosa, por lo que me gustaría poder desenvolverme en muchos ámbitos y poder ser de ayuda para
-                a su vez aprender del proceso. Me gusta mucho planificar mis actividades, por lo tanto no demasiados problemas
-                con organizar ciertas cosas. No tengo problemas en trabajar en equipo, y me gustan los ambientes en donde todos
-                tengo algo que aportar y debatir en lo que se está trabajando.
-            </p>
-        </article>
-        <article>
-            <h1>Competencias</h1>
-            <ul>
-                <li>Python</li>
-                <li>JavaScript</li>
-                <li>HTML y CSS</li>
-                <li>Bootstrap</li>
-                <li>Django</li>
-                <li>SQL</li>
-                <li>Git/GitHub</li>
-            </ul>
-        </article>
-
-        <article>
-            <h1>Proyectos Personales</h1>
-            <div>
-                <h4>Blog sobre jardinería</h4>
-                <p>
-                    Un concepto de blog de jardinería para publicar y registrar las plantas que una persona
-                    aficionada a la jardinería posee.
-                </p>
-
-                <h4>Proyecto R.I.M.A</h4>
-                <p>
-                    Un proyecto conceptual de un curso de la universidad dedicado a los mochileros.
-                </p>
-            </div>
-        </article>
-
-        <article>
-
-        </article>
-    </section>
+    <div class="container p-4">
+        <div class="row">
+            <aside class="col text-center p-4 m-2" id="sidebar">
+                <img src="img/profile.jpg" alt="My profile photo" width="200">
+                <h4 class="m-2">Matías Rivas Aguilera</h2>
+                <hr>
+                <h5>Estudiante de Ingeniería Civil en Computación</h3>
+                <hr>
+                <div id="contact">
+                    <p>Teléfono: +56 991398264</p>
+                    <p>Email: matias.rivas.aa@gmail.com</p>
+                    <p>Dirección: Maipú, Región Metropolitana</p>
+                    <p>Nacimiento: 19 de Octubre de 2000</p>
+                </div>
+            </aside>
+        
+            <section class="col-9 p-4 m-2" id="info">
+                <article>
+                    <h1>Sobre mi</h1>
+                    <p>
+                        Estudiante de cuarto año de Ingeniería Civil en Ciencias de la Computación en la Universidad de Chile. Soy una 
+                        una persona muy curiosa, por lo que me gustaría poder desenvolverme en muchos ámbitos y poder ser de ayuda para
+                        a su vez aprender del proceso. Me gusta mucho planificar mis actividades, por lo tanto no demasiados problemas
+                        con organizar ciertas cosas. No tengo problemas en trabajar en equipo, y me gustan los ambientes en donde todos
+                        tengo algo que aportar y debatir en lo que se está trabajando.
+                    </p>
+                </article>
+                <article>
+                    <h1>Competencias</h1>
+                    <ul>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>HTML y CSS</li>
+                        <li>Bootstrap</li>
+                        <li>Django</li>
+                        <li>SQL</li>
+                        <li>Git/GitHub</li>
+                    </ul>
+                </article>
+        
+                <article>
+                    <h1>Proyectos Personales</h1>
+                    <div>
+                        <h4>Blog sobre jardinería</h4>
+                        <p>
+                            Un concepto de blog de jardinería para publicar y registrar las plantas que una persona
+                            aficionada a la jardinería posee.
+                        </p>
+        
+                        <h4>Proyecto R.I.M.A</h4>
+                        <p>
+                            Un proyecto conceptual de un curso de la universidad dedicado a los mochileros.
+                        </p>
+                    </div>
+                </article>
+        
+                <article>
+                </article>
+            </section>
+        </div>
+    </div>
+    
 
     <script src="./scripts/bootstrap.bundle.min.js"></script>
 </body>

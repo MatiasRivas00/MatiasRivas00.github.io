@@ -1,0 +1,16 @@
+body {
+    background: rgb(10,9,8);
+    background: linear-gradient(90deg, rgba(10,9,8,1) 0%, rgba(94,80,63,1) 35%, rgba(34,51,59,1) 100%);
+    color: #EAE0D5;
+    font-family: 'Roboto', sans-serif;
+}
+
+#sidebar, #info{
+    background: #0a0908;
+    border-radius: 2%;
+}
+
+#sidebar>img {
+    border-radius: 5%
+}
+
