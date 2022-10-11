@@ -1,12 +1,18 @@
 body {
     background: rgb(10,9,8);
-    background: linear-gradient(90deg, rgba(10,9,8,1) 0%, rgba(94,80,63,1) 35%, rgba(34,51,59,1) 100%);
+    background: radial-gradient(circle, rgba(10,9,8,1) 0%, rgba(48,16,68,1) 58%, rgba(17,6,56,1) 100%);
     color: #EAE0D5;
     font-family: 'Roboto', sans-serif;
 }
 
-#sidebar, #info{
+#sidebar{
     background: #0a0908;
+    border-radius: 3%;
+}
+
+#info {
+    background: rgb(10,9,8);
+    background: linear-gradient(90deg, rgba(10,9,8,1) 0%, rgba(20,12,2,1) 95%, rgba(8,19,24,1) 100%);
     border-radius: 3%;
 }
 
